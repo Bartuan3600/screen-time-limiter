@@ -1,0 +1,27 @@
+# Gradle / Android Studio
+.gradle/
+build/
+**/build/
+.kotlin/
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+# Signing & secrets - never commit
+*.jks
+*.keystore
+keystore/
+keystore.properties
+key.properties
+google-services.json
+.env
+# Build outputs
+*.apk
+*.aab
+__pycache__/
+*.pyc
+# runtime data / pairing secrets
+relay.json
+config.local.json

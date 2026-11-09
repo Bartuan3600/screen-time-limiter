@@ -1,0 +1,1 @@
+# Keine externen Pakete noetig - nur Python 3.8+ Standardbibliothek (inkl. tkinter).

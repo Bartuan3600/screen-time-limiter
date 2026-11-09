@@ -1,0 +1,28 @@
+{
+ "note": "Shared test vectors for PowerShell (tests/relay_tests.ps1), Python and Kotlin (app/src/test). Test key only - never used in production.",
+ "key_b64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+ "topic": "stl-a5e150bca3c2b64fadb0732a",
+ "db_key": "stl-65be5b6f20821a1dcd36aa37",
+ "fingerprint": "630dcd29",
+ "pairing_code": "STL1-AAAQ-EAYE-AUDA-OCAJ-BIFQ-YDIO-B4IB-CEQT-CQKR-MFYY-DENB-WHA5-DYPQ-MMG4",
+ "envelopes": [
+  {
+   "iv_b64": "ZGVmZ2hpamtsbW5v",
+   "plaintext": "{\"v\":1,\"action\":\"refresh\"}",
+   "data_b64": "MzmoREPYerxfASuBtQtIx2CwY2z5CYAahawFUfjqTmi5YCQJ//csoUgx",
+   "envelope": "{\"enc\":\"aes-256-gcm\",\"iv\":\"ZGVmZ2hpamtsbW5v\",\"data\":\"MzmoREPYerxfASuBtQtIx2CwY2z5CYAahawFUfjqTmi5YCQJ//csoUgx\"}"
+  },
+  {
+   "iv_b64": "AQIDBAUGBwgJCgsM",
+   "plaintext": "{\"v\":1,\"id\":\"abc123\",\"action\":\"add_minutes\",\"user\":\"Max\",\"minutes\":30,\"pin\":\"1234\"} äöü – ✓",
+   "data_b64": "fsgs99al3KQlxkF9MnKIS3Nx0ty7TzGm1TaWSryMVKTggMSyB9uZ69XfmMnnros47NR1wpn4TlMaX2GkAXRAaQRfMRCP3X+QInySQNkJMZTpEk0IIY09drkqtumgbQDBC1Vyz70vCjbdA6/1R4H6aWHk",
+   "envelope": "{\"enc\":\"aes-256-gcm\",\"iv\":\"AQIDBAUGBwgJCgsM\",\"data\":\"fsgs99al3KQlxkF9MnKIS3Nx0ty7TzGm1TaWSryMVKTggMSyB9uZ69XfmMnnros47NR1wpn4TlMaX2GkAXRAaQRfMRCP3X+QInySQNkJMZTpEk0IIY09drkqtumgbQDBC1Vyz70vCjbdA6/1R4H6aWHk\"}"
+  },
+  {
+   "iv_b64": "BwcHBwcHBwcHBwcH",
+   "plaintext": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "data_b64": "dxLeJBd3r4y+5Wv4+CmM49kk9Qvwj/lhhsMmgnymSmNfPIkG+TiM6nqG2YW6b6FewzDLMa3ZeXPlkJmaFcD7iD3diErxsFK5NKNPOJ/7aKK8QCpYztYzTJdCHyYQX3/ztvf31XFdyfloxhYm8Vi9UI6qv4A=",
+   "envelope": "{\"enc\":\"aes-256-gcm\",\"iv\":\"BwcHBwcHBwcHBwcH\",\"data\":\"dxLeJBd3r4y+5Wv4+CmM49kk9Qvwj/lhhsMmgnymSmNfPIkG+TiM6nqG2YW6b6FewzDLMa3ZeXPlkJmaFcD7iD3diErxsFK5NKNPOJ/7aKK8QCpYztYzTJdCHyYQX3/ztvf31XFdyfloxhYm8Vi9UI6qv4A=\"}"
+  }
+ ]
+}
